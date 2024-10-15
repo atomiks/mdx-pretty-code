@@ -3,7 +3,7 @@ import type { Options, Theme, CharsHighlighterOptions } from './types';
 import {
   type Highlighter,
   type CodeToHastOptions,
-  getHighlighter as defaultGetHighlighter,
+  getSingletonHighlighter as defaultGetHighlighter,
 } from 'shiki';
 import { visit } from 'unist-util-visit';
 import { toString as hastToString } from 'hast-util-to-string';
